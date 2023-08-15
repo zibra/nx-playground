@@ -3,7 +3,7 @@ import { counterStore } from './CounterStore'
 import { counterStoreDecorated } from './CounterStoreDecorated'
 
 export const Counter = observer(() => {
-  const { counter, increase } = counterStore
+  const { counter, increase } = counterStoreDecorated
 
   return (
     <div>
