@@ -1,10 +1,10 @@
-import { action, makeAutoObservable, observable } from 'mobx'
+import {action, makeObservable, observable} from 'mobx'
 
 class CounterStoreDecorated {
   @observable counter = 1
 
   constructor() {
-    makeAutoObservable(this)
+    makeObservable(this)
   }
 
   @action.bound increase() {

@@ -1,5 +1,4 @@
 import { observer } from 'mobx-react'
-import { counterStore } from './CounterStore'
 import { counterStoreDecorated } from './CounterStoreDecorated'
 
 export const Counter = observer(() => {
