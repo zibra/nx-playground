@@ -54,7 +54,7 @@
     },
     "test": {
       "executor": "@nx/vite:test",
-      "outputs": ["coverage/apps/voyage"],
+      "outputs": ["{workspaceRoot}/coverage/apps/voyage"],
       "options": {
         "passWithNoTests": true,
         "reportsDirectory": "../../coverage/apps/voyage"

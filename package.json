@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "clear": "nx reset",
-    "start":"nx run voyage:serve:development",
+    "start": "nx run voyage:serve:development",
     "storybook": "nx storybook storybook-host"
   },
   "private": true,
