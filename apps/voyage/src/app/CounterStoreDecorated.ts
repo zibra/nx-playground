@@ -1,9 +1,16 @@
-import {action, makeObservable, observable} from 'mobx'
+import { action, makeObservable, observable } from 'mobx'
 
-class CounterStoreDecorated {
+abstract class BaseCounter {
   @observable counter = 1
 
+  protected constructor() {
+    makeObservable(this)
+  }
+}
+
+class CounterStoreDecorated extends BaseCounter {
   constructor() {
+    super()
     makeObservable(this)
   }
 
