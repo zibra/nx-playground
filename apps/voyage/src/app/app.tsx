@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import { SampleComponent } from '@core'
 import { Counter } from './Counter'
-import {Bar} from "./FooBar";
+import { Bar } from './FooBar'
 
 const StyledApp = styled.div`
   // Your style here
@@ -20,5 +20,3 @@ export function App() {
     </StyledApp>
   )
 }
-
-export default App

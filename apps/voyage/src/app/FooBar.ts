@@ -1,4 +1,4 @@
-import {action, makeObservable} from "mobx";
+import { action, makeObservable } from "mobx";
 
 export abstract class Foo {
   protected constructor() {
