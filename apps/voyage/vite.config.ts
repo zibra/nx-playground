@@ -19,8 +19,8 @@ export default defineConfig({
 
   plugins: [
     react(),
-    tsconfigPaths(),
-    // nxViteTsPaths(),
+    // tsconfigPaths(),
+    nxViteTsPaths(),
   ],
 
   // Uncomment this if you are using workers.
