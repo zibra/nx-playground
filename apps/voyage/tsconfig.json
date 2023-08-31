@@ -8,12 +8,7 @@
     "types": [
       "vite/client",
       "vitest"
-    ],
-    "baseUrl": "./src",
-    "paths": {
-      "@core": ["../../../libs/core/src/index.ts"],
-      "@samplePath/*": ["samplePathFolder/*"]
-    }
+    ]
   },
   "files": [],
   "include": [],

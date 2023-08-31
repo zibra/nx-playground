@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@core": ["libs/core/src/index.ts"]
+      "@core": ["libs/core/src/index.ts"],
+      "@samplePath/*": ["apps/voyage/src/samplePathFolder/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
